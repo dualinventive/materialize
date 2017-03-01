@@ -501,6 +501,15 @@ td, th{
     margin: 0;
     border-bottom: 1px solid $collection-border-color;
 
+    &.with-primary-action {
+      display: flex;
+    }
+
+    .primary-action {
+      width: 100%;
+      position: relative;
+    }
+
     // Avatar Collection
     &.avatar {
       min-height: 84px;
